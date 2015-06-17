@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffffff</color>
+    <color name="letter_bg">#ff4393d3</color>
+    <color name="name_color">#ff545454</color>
+    <color name="tel_color">#ffd2d2d2</color>
+    <color name="bg_color">#ffffffff</color>
+    <color name="detials_bg_color">#fff1f1f1</color>
+    <color name="bg_color_dark">#ff5989c0</color>
+    <color name="detials_bg_stroke_color">#ffcccccc</color>
+    <color name="popupbg">#ff095692</color>
+    <color name="listitem_color">#ffc6c6c6</color>
+    <color name="firstletter_color">#ff095691</color>
+    <color name="firstletter_bgcolor">#ffe5e5e5</color>
+    <color name="detail">#ff0099cc</color>
+    <color name="blue">#ff409be4</color>
+    <color name="actionbar_background_start">#ff8b1a1a</color>
+    <color name="actionbar_background_end">#ffcd2626</color>
+</resources>

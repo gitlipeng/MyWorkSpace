@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ff282828"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="30.0dip"
+    android:paddingTop="10.0dip" >
+
+    <TextView
+        android:id="@+id/callname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginBottom="10.0dip"
+        android:layout_marginLeft="10.0dip"
+        android:text="通话"
+        android:textColor="#ff32add9"
+        android:textSize="20.0sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2.0dip"
+        android:background="#ff51c0e9" />
+
+    <com.xzlp.deskcall.defineview.ScaleButton
+        android:id="@+id/shortcut_dail"
+        style="@style/scaleStyle"
+        android:layout_marginTop="10.0dip"
+        android:text="拨打电话" />
+
+    <com.xzlp.deskcall.defineview.ScaleButton
+        android:id="@+id/shortcut_sms"
+        style="@style/scaleStyle"
+        android:layout_marginTop="10.0dip"
+        android:text="发送短信" />
+
+    <com.xzlp.deskcall.defineview.ScaleButton
+        android:id="@+id/shortcut_cancel"
+        style="@style/scaleStyle"
+        android:layout_marginTop="10.0dip"
+        android:text="取消" />
+
+</LinearLayout>

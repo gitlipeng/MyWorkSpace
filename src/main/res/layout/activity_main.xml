@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/home_bg" >
+
+    <include
+        android:id="@+id/search_layout"
+        layout="@layout/searchview" />
+
+    <ListView
+        android:id="@+id/contactlist"
+        style="@style/listview_style"
+        android:layout_below="@+id/search_layout" />
+
+    <com.xzlp.deskcall.services.QuickAlphabeticBar
+        android:id="@+id/fast_scroller"
+        android:layout_width="22.0dip"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/search_layout"
+        android:layout_gravity="top|right|center"
+        android:layout_marginTop="0.0dip"
+        android:background="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/dic_background"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/fast_position"
+        android:layout_width="70.0dip"
+        android:layout_height="70.0dip"
+        android:layout_centerInParent="true"
+        android:layout_gravity="top|center"
+        android:background="@color/letter_bg"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="48.0sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

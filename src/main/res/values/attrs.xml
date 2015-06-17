@@ -1,0 +1,6 @@
+<resources>
+    <declare-styleable name="colorbtn">
+	    <!-- 背景颜色 -->
+		<attr name="bgcolor" format="color" />  
+    </declare-styleable>
+</resources>
