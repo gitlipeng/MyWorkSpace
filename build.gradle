@@ -6,15 +6,21 @@ android {
 
     defaultConfig {
         applicationId "com.xzlp.deskcall"
-        minSdkVersion 9
-        targetSdkVersion 22
-        versionCode 1
-        versionName "2.0"
     }
+    signingConfigs {
+        myConfig{
+            storeFile file("deskcall")
+            storePassword "123456"
+            keyAlias "deskcall"
+            keyPassword "123456"
+        }
+    }
+
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig  signingConfigs.myConfig
         }
     }
     lintOptions {

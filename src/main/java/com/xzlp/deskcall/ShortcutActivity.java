@@ -50,6 +50,10 @@ public class ShortcutActivity extends Activity implements OnClickListener {
 
 		Intent intent = getIntent();
 		phone = intent.getStringExtra(INTENT_KEY_PHONE);
+        //2.0直接拨打电话
+        UtilTools.callContact(this, phone);
+        finish();
+
 		String name = intent.getStringExtra(INTENT_KEY_NAME);
 		
 		mCallName = (TextView) findViewById(R.id.callname);
